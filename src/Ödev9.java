@@ -6,12 +6,12 @@ public class Ödev9 {
 
         int heat;
 
-        System.out.println("Lütfen sıcaklığı giriniz: ");
+        System.out.print("Lütfen sıcaklığı giriniz: ");
         heat= input.nextInt();
 
-        if(heat<5){
+        if((heat<5) && (heat> (-10))){
             System.out.println("Kayak Yapabilirsiniz!");
-        } else if (heat>=5 && heat<10){
+        }  else if (heat>=5 && heat<10){
             System.out.println("Sinemaya Gidebilirsiniz!");
         } else if (heat>=10 && heat<=15) {
             System.out.println("Sinemaya ya da Pikniğe Gidebilirsiniz!");
@@ -19,8 +19,9 @@ public class Ödev9 {
             System.out.println("Pikniğe Gidebilirsiniz!");
         } else if (heat>=25 && heat<40) {
             System.out.println("Yüzmeye Gidebilirsiniz!");
-        }
-        else {
+        } else if (heat< -10) {
+            System.out.println("Ateş Yakmak İçin Odun Toplamaya Başlasan İyi Edersin \n:D");
+        } else {
             System.out.println("Bulabileceğiniz En Soğuk Yere Kaçın!! \n:)");
             
         }
