@@ -12,7 +12,7 @@ public class Ödev16 {
             if (sayi % 4 == 0 && sayi % 2 == 0){
                 toplam +=sayi;
             }
-        }while(sayi>0);
+        }while(sayi % 2 != 1);
 
         System.out.println("Toplam: " + toplam);
 
