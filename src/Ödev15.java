@@ -19,7 +19,7 @@ public class Ödev15 {
                 toplam +=i ;
                 adet ++;
             }
-
+//yorum
 
         }
         ortalama = toplam / adet;
