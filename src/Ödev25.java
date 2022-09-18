@@ -22,7 +22,7 @@ public class Ödev25 {
                 }
             }
         }
-        System.out.print("En küçük sayı : "+min+"\n");
+        System.out.println("En küçük sayı: " + min);
         System.out.print("En büyük sayı : "+max);
     }
 }
